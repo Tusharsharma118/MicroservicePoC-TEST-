@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gateway-service
+    
+  cloud:
+    config:
+      fail-fast: true
+      name: gateway-service
+      discovery:
+        enabled: true
+        service-id: config-server

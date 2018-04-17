@@ -1,0 +1,12 @@
+spring:  
+  application:
+    name: customer-service
+    
+  cloud:
+    config:
+      fail-fast: true
+      name: customer-service
+      discovery:
+        enabled: true
+
+    

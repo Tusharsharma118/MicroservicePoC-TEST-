@@ -1,0 +1,10 @@
+spring:  
+  application:
+    name: documents-service
+
+  cloud:
+    config:
+      fail-fast: true
+      name: document-service
+      discovery:
+        enabled: true
