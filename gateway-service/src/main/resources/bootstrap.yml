@@ -4,8 +4,8 @@ spring:
     
   cloud:
     config:
+      uri: http://localhost:8100
       fail-fast: true
       name: gateway-service
-      discovery:
-        enabled: true
-        service-id: config-server
+
+      
